@@ -23,6 +23,10 @@
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&identifier=104773211)](https://dependabot.com)
 [![npm](https://img.shields.io/npm/v/cordova-plugin-ionic-webview.svg)](https://www.npmjs.com/package/cordova-plugin-ionic-webview)
 
+# What's different
+
+This is used in an Ionic 3 project. The original version of the Ionic plugin did not detect iPad and the layout of the app on iPad screens was effected as a consequence. Updating some code fixed this issue. The specific code can be found from this fork: https://github.com/we-are-Joinup/cordova-plugin-ionic-webview/commit/57fc6028ec37c4c8287dfe389bc2806ddfbe0010.
+
 # Ionic Web View for Cordova
 
 A Web View plugin for Cordova, focused on providing the highest performance experience for Ionic apps (but can be used with any Cordova app).
